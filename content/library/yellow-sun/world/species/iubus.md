@@ -1,0 +1,1 @@
+Furred bipedal predators. The species originated from Skarma-5. Humans share roughly 90% of their DNA with Iubis, making the pair the closest known sentient cousins. 

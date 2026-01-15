@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "garden",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,11 +23,12 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "IBM Plex Mono",
+        body: "IBM Plex Mono",
         code: "IBM Plex Mono",
       },
       colors: {
+        /*
         lightMode: {
           light: "#faf8f8",
           lightgray: "#e5e5e5",
@@ -39,14 +40,26 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
+        */
+        lightMode: {
+          light: "#ffffff",
+          lightgray: "#000000",
+          gray: "#000000",
+          darkgray: "#000000",
+          dark: "#000000",
+          secondary: "#000000",
+          tertiary: "#000000",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fff23688",
+        },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          light: "#000000",
+          lightgray: "#ffcc00",
+          gray: "#ffcc00",
+          darkgray: "#ffcc00",
+          dark: "#ffcc00",
+          secondary: "#ffcc00",
+          tertiary: "#ffcc00",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
